@@ -1,6 +1,6 @@
 import React from "react";
-import SiteHeader from "../../../modules/layout/SiteHeader/index";
-import SiteFooter from "../../../modules/layout/SiteFooter/index";
+import SiteHeader from "../../modules/layout/SiteHeader/index";
+import SiteFooter from "../../modules/layout/SiteFooter/index";
 
 const layout = ({ children }) => {
   return (
