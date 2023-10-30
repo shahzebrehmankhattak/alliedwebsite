@@ -55,8 +55,8 @@ const SmallInfo = () => {
 
         <Col xxl={16} xl={16} lg={24} md={24} xs={24}>
           <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
-            “Quality means doing it right when no one is looking.” ~Henry Ford.
-            “Be a yardstick of quality. Some people aren't used to an
+            “Quality means doing it right when no one is looking.”
+            “Be a yardstick of quality. Some people arent used to an
             environment where excellence is expected.”
           </Typography>
           <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
