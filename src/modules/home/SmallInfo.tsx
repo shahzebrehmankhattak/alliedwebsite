@@ -55,15 +55,15 @@ const SmallInfo = () => {
 
         <Col xxl={16} xl={16} lg={24} md={24} xs={24}>
           <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
-            “Quality means doing it right when no one is looking.”
-            “Be a yardstick of quality. Some people arent used to an
-            environment where excellence is expected.”
+            Quality means doing it right when no one is looking. Be a yardstick
+            of quality. Some people arent used to an environment where
+            excellence is expected.
           </Typography>
           <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
-            “Anything worth doing is worth doing right the first time.”
+            Anything worth doing is worth doing right the first time.
           </Typography>
           <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
-            “Steve Job”
+            Steve Job
           </Typography>
         </Col>
       </Row>
