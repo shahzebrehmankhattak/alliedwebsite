@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import logo from "../../../../public/assets/steelwireimage.webp";
+import { ShoppingCartOutlined } from "@ant-design/icons";
 
 const SiteHeader = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -30,8 +31,13 @@ const SiteHeader = () => {
       >
         <div>
           <Link href="/" className="text-white flex gap-3 items-center">
-            <Image src={logo} alt='logo' className="w-[45px] md:w-[100px] h-[45px] md:h-[100px] m-1 rounded-2xl" />
-            Allied Machinery</Link>
+            <Image
+              src={logo}
+              alt="logo"
+              className="w-[45px] md:w-[100px] h-[45px] md:h-[100px] m-1 rounded-2xl"
+            />
+            Allied Machinery
+          </Link>
         </div>
 
         <svg
@@ -66,31 +72,43 @@ const SiteHeader = () => {
             md:pt-0`}
           >
             <li>
-              <a className="md:p-4 text-white py-2 block hover:text-purple-400" href="/">
+              <a
+                className="md:p-4 text-white py-2 block hover:text-gray-400"
+                href="/"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a className="md:p-4 py-2 block text-white hover:text-purple-400" href="#">
+              <a
+                className="md:p-4 py-2 block text-white hover:text-gray-400"
+                href="/about-us"
+              >
                 About Us
               </a>
             </li>
             <li>
-              <a className="md:p-4 py-2 block text-white hover:text-purple-400" href="#">
+              <a
+                className="md:p-4 py-2 block text-white hover:text-gray-400"
+                href="/products"
+              >
                 Products
               </a>
             </li>
             <li>
-              <a className="md:p-4 py-2 block text-white hover:text-purple-400" href="#">
+              <a
+                className="md:p-4 py-2 block text-white hover:text-gray-400"
+                href="#"
+              >
                 Contact
               </a>
             </li>
             <li>
               <a
-                className="md:p-4 py-2 block hover:text-purple-400 text-white"
-                href="#"
+                className="md:p-4 py-2 block hover:text-gray-400 text-white"
+                href="/add-to-cart"
               >
-                Cart
+                <ShoppingCartOutlined className="text-2xl" />
               </a>
             </li>
           </ul>

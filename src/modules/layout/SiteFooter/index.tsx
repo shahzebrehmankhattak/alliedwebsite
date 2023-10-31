@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  FacebookOutlined,
+  InstagramOutlined,
+  MailOutlined,
+  TwitterOutlined,
+  YoutubeOutlined,
+} from "@ant-design/icons";
 
 const SiteFooter = () => {
   return (
@@ -25,7 +32,7 @@ const SiteFooter = () => {
 
           <div className="flex justify-center sm:justify-between flex-wrap lg:flex-nowrap gap-y-[60px] gap-x-[90px] sm:gap-x-0 lg:w-7/12">
             <div className="text-center sm:text-left">
-              <div className="mb-[18px] text-gray-400 text-sm font-bold select-none">
+              <div className="mb-[18px] text-white text-sm font-bold select-none">
                 Product
               </div>
 
@@ -52,7 +59,7 @@ const SiteFooter = () => {
             </div>
 
             <div className="text-center sm:text-left">
-              <div className="mb-[18px] text-gray-400 text-sm font-bold select-none">
+              <div className="mb-[18px] text-white text-sm font-bold select-none">
                 Company
               </div>
 
@@ -79,7 +86,7 @@ const SiteFooter = () => {
             </div>
 
             <div className="text-center sm:text-left">
-              <div className="mb-[18px] text-gray-400 text-sm font-bold select-none">
+              <div className="mb-[18px] text-white text-sm font-bold select-none">
                 Resources
               </div>
 
@@ -106,34 +113,31 @@ const SiteFooter = () => {
             </div>
 
             <div className="text-center sm:text-left">
-              <div className="mb-[18px] text-gray-400 text-sm font-bold select-none">
+              <div className="mb-[18px] text-white text-sm font-bold select-none">
                 Social
               </div>
 
-              <ul className="flex flex-col gap-[10px] text-gray-200">
+              <ul className="flex flex-col gap-[10px] text-white">
                 <a className="hover:underline" href="#">
                   <li>Twitter</li>
                 </a>
                 <a className="hover:underline" href="#">
-                  <li>LinkedIn</li>
+                  <li>Gmail</li>
                 </a>
                 <a className="hover:underline" href="#">
                   <li>Facebook</li>
                 </a>
                 <a className="hover:underline" href="#">
-                  <li>Github</li>
+                  <li>Instagram</li>
                 </a>
                 <a className="hover:underline" href="#">
-                  <li>AngelList</li>
-                </a>
-                <a className="hover:underline" href="#">
-                  <li>Dribbble</li>
+                  <li>Youtube</li>
                 </a>
               </ul>
             </div>
 
             <div className="text-center sm:text-left">
-              <div className="mb-[18px] text-gray-400 text-sm font-bold select-none">
+              <div className="mb-[18px] text-white text-sm font-bold select-none">
                 Legal
               </div>
 
@@ -166,28 +170,25 @@ const SiteFooter = () => {
         sm:justify-between flex-col sm:flex-row sm:px-[30px] md:px-[40px] 
         lg:px-[50px] xl:px-[75px] w-full h-[100px] bg-[#CD5C5C]"
         >
-          <div className="text-gray-400 text-center">
+          <div className="text-white text-center">
             Copyright by shahzebkhattak703@gmailcom
           </div>
 
-          <ul className="flex gap-[15px] text-gray-400 cursor-pointer">
+          <ul className="flex gap-[15px] text-white cursor-pointer">
             <li className="ease-in duration-200 hover:text-gray-100">
-              <i className="fa-brands fa-xl fa-twitter"></i>
+              <TwitterOutlined className="text-white text-2xl" />
             </li>
             <li className="ease-in duration-200 hover:text-gray-100">
-              <i className="fa-brands fa-xl fa-linkedin"></i>
+              <MailOutlined className="text-white text-2xl" />
             </li>
             <li className="ease-in duration-200 hover:text-gray-100">
-              <i className="fa-brands fa-xl fa-facebook"></i>
+              <FacebookOutlined className="text-white text-2xl" />
             </li>
             <li className="ease-in duration-200 hover:text-gray-100">
-              <i className="fa-brands fa-xl fa-github"></i>
+              <InstagramOutlined className="text-white text-2xl" />
             </li>
             <li className="ease-in duration-200 hover:text-gray-100">
-              <i className="fa-brands fa-xl fa-angellist"></i>
-            </li>
-            <li className="ease-in duration-200 hover:text-gray-100">
-              <i className="fa-brands fa-xl fa-dribbble"></i>
+              <YoutubeOutlined className="text-white text-2xl" />
             </li>
           </ul>
         </div>

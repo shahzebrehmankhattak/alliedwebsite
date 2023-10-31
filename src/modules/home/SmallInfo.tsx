@@ -52,17 +52,22 @@ const SmallInfo = () => {
             <li className="py-1">Reliable</li>
           </ul>
         </Col>
+        <Col xxl={24}>
+          <Typography className="text-center text-xl md:text-2xl font-semibold">
+            Famous Quote
+          </Typography>
+        </Col>
 
         <Col xxl={16} xl={16} lg={24} md={24} xs={24}>
-          <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
+          <Typography className="text-center text-xl  font-semibold ">
             Quality means doing it right when no one is looking. Be a yardstick
             of quality. Some people arent used to an environment where
             excellence is expected.
           </Typography>
-          <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
+          <Typography className="text-center text-xl  font-semibold">
             Anything worth doing is worth doing right the first time.
           </Typography>
-          <Typography className="text-center text-xl md:text-2xl font-semibold md:font-bold">
+          <Typography className="text-center text-xl font-semibold">
             Steve Job
           </Typography>
         </Col>

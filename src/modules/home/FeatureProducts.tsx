@@ -9,7 +9,7 @@ const FeatureProducts = () => {
     <>
       <Row>
         <Col xxl={24} xl={24} lg={24} md={24} sm={24} xs={24} className="py-[1rem]">
-          <Typography className="text-xl font-semibold text-center">
+          <Typography className="text-4xl font-semibold text-center">
             Feature Products
           </Typography>
         </Col>

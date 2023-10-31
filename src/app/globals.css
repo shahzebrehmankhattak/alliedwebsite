@@ -16,3 +16,14 @@
   }
 }
 
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("/path-to-your-font/roboto-thin.woff") format("woff");
+  /* Specify the correct path to your font file and format. */
+}
+
+@layer base {
+  * {
+    font-family: "Roboto-Thin", sans-serif;
+  }
+}
