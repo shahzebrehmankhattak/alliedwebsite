@@ -15,7 +15,7 @@ const AboutUs = () => {
         <Col xxl={24} xl={24} lg={24} md={24} xs={24}>
           <Typography className="text-center text-base font-medium pl-8 pr-8 pb-4 pt-4">
             Welcome to Allied machinery where we share information related to
-            machine. We're dedicated to providing you the very best information
+            machine. Were dedicated to providing you the very best information
             and knowledge of the above mentioned topics. Our about us page is
             generated with the help of About Us Page Generator We hope you found
             all of the information on Allied machinery helpful, as we love to
