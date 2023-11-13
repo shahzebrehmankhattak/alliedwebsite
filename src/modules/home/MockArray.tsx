@@ -1,27 +1,31 @@
-import mainSteel from "../../../public/assets/steelwireimage.webp";
-import mainSteel1 from "../../../public/assets/abc.webp";
+import mainSteel from "../../../public/assets/steelwirerope.jpeg";
+import sling from "../../../public/assets/sling.jpg";
+import nylonsling from "../../../public/assets/nylonsling.jpg";
+import chainBlock from "../../../public/assets/chainblck.png";
 
 export const featureProdcuts = [
   {
     img: mainSteel,
-    name: "Steel wire",
-    price: "200 Rs",
+    name: "Steel Wire Rope",
+    size: "All Size Available",
+    quality: "100 % metal",
   },
   {
-    img: mainSteel1,
-    name: "Steel Rope",
-    price: "310 Rs",
+    img: sling,
+    name: "Steel Rope lifting sling",
+    size: "All Size Available",
+    quality: "100 % metal",
   },
   {
-    img: mainSteel,
-    name: "Steel wire",
-    price: "200 Rs",
+    img: chainBlock,
+    name: "Chain Block",
+    size: "All Size Available",
+    quality: "100 % metal",
   },
   {
-    img: mainSteel1,
-    name: "Steel Rope",
-    price: "310 Rs",
+    img: nylonsling,
+    name: "Nylon Sling",
+    size: "All Size Available",
+    quality: "100 % metal",
   },
- 
- 
 ];

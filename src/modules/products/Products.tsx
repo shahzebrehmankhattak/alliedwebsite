@@ -29,11 +29,23 @@ const Products = () => {
                     <Image alt="example" src={item.img} className="h-[260px]" />
                   }
                 >
-                  <Typography className="text-[#000] text-base font-semibold text-start">
-                    Product: {item.name}
+                  <Typography className="text-[gray] text-sm font-medium text-start">
+                    Product:&nbsp;
+                    <span className="font-semibold text-sm text-[#000]">
+                      {item.name}
+                    </span>
                   </Typography>
-                  <Typography className="text-[#000] text-base font-semibold text-start">
-                    Price: {item.price}
+                  <Typography className="text-[gray text-sm font-medium text-start">
+                    Size:&nbsp;
+                    <span className="font-semibold text-sm text-[#000]">
+                      {item.size}
+                    </span>
+                  </Typography>
+                  <Typography className="text-[gray text-sm font-medium text-start">
+                    Quality:&nbsp;
+                    <span className="font-semibold text-sm text-[#000]">
+                      {item.quality}
+                    </span>
                   </Typography>
                   <div className="flex justify-center pt-3">
                     <Button
